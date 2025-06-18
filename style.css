@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+ul li{
+    width: 50px;
+    height: 80px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #ddd;
+    cursor: pointer;
+}
+.red{
+    background-color: #EA2027;
+}
+.Green{
+    background-color: rgb(22, 95, 22);
+}
+.pink{
+    background-color: rgb(209, 95, 114);
+}
+.gray{
+    background-color: rgb(92, 72, 72);
+}
+.blue{
+    background-color: rgb(66, 66, 245);
+}
+.tomato{
+    background-color: rgb(196, 55, 30);
+}
